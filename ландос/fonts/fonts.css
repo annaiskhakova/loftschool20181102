@@ -1,0 +1,16 @@
+
+
+@font-face {
+	font-family: 'Gagalin Regular';
+	src: url('./Gagalin-Regular.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'Lifehack Medium';
+	src: url('./Lifehack Medium.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}

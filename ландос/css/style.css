@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=cyrillic');
+
+body {   
+margin: 0 auto;
+font-family: 'Ubuntu', sans-serif;
+padding:0;
+}
+h1{
+font-family: 'Gagalin Regular';
+font-size: 72px;
+margin:30px 0 20px 10px;
+line-break: auto;
+text-transform: uppercase;
+color:#f9b43b;
+}
+
+h2{
+font-family: 'Lifehack Medium';
+font-size: 62px;
+line-height: 1;
+margin: 20px 0 10px 10px;
+color:#ffffff;
+}
+
+.container{
+    margin: 0 auto;
+    width:960px;   
+}
+
+
+
+
+header{
+position: absolute;
+background-color: black;  
+background-image: url('./../img/bg.jpg');
+background-size: cover;
+height:100%;
+width:100%;
+padding:0;
+margin: 0;
+}
+.menu {
+display: flex;
+height:90px;
+margin: 0 auto;
+width:960px;
+}
+.logo {
+padding:auto;
+margin-top:2px;
+flex:1;
+}
+.logo a {
+display:block;
+    }
+.logo__img {
+margin:0;
+padding:10px 8px;
+height:75px;
+}
+.nav {
+padding: 25px 8px;
+}
+.nav__ul {
+display: flex;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+font-size: 13px;
+text-transform: uppercase;
+color: #ffffff;
+line-height:1.2;
+}
+.nav__li {
+display: flex;
+margin:auto 0;
+}
+.nav__li::after{
+content: "•";
+padding:0 17px;
+}
+.nav__li:last-of-type:after {
+display:none;
+}
+.button {
+ display: flex;
+}
+.button__a{
+background-color:  #e45028;
+text-decoration: none;
+flex:1;
+margin:auto 10px;
+padding:10px 17px;
+border-radius:5px;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+font-size: 13px;
+text-transform: uppercase;
+color: #ffffff;
+line-height:1.2;
+}
+.button__a:hover{
+background-color:#c1401e;
+}
+
+.section1
+{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+ height:auto;
+
+padding:15px;
+}
+.section1__block{
+ max-width:50%;
+}
+.section1__img{
+    width:455px;
+    padding:15px 10px;
+    margin: -43px 10px 0 15px;
+}
+.arrow
+{
+position: fixed;
+  width:100%;
+  color:white;  
+  display:flex;
+  justify-content: center;
+  bottom:28px;
+  padding:0;
+}
+
+.points{
+ position:fixed;
+ margin: 65px 46px 0 55px;
+ right:0;
+ top:0;  
+ display: flex; 
+ flex-direction: column;
+ justify-content: space-evenly;
+}
+.points__li{
+display: flex; 
+flex-direction: column;
+justify-content: space-evenly;
+margin: 14px  5px;
+width:7px;
+height:7px;
+top:0;
+}
+.points__li a{
+    top:0;
+    display: fixed;
+    align-self: center;
+    width:7px;
+    height:7px;
+    width:100%;
+    margin:5px;
+    padding:5px;
+    justify-content: center;
+    border-radius: 10px;}
+
+.points__li a:hover{
+border: 1px solid #ffffff;
+}
+.dot{
+display: flex;
+align-self: center;
+width:7px;
+height:7px;
+}
